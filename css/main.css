@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header__img {
+  width: 100vw;
+  height: 25vh;
+}
+
+.navbar {
+  background-color: #007aad;
+}
+
+.footer {
+  background-color: #007aad;
+  position: absolute;
+  bottom: 0px;
+  margin-top: 30vh;
+}
+
+.footer__elemento {
+  background-color: #007aad;
+}
+/*# sourceMappingURL=main.css.map */
