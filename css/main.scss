@@ -6,6 +6,9 @@
     width: 100vw;
     height: 25vh;
 }
+.main__section--img{
+    width: 100%;
+}
 .navbar{
     background-color: #007aad;
 }
@@ -13,7 +16,7 @@
 
 .footer{
     background-color: #007aad;
-    position:absolute;
+    position:static;
     bottom: 0px;
     margin-top: 30vh;
     &__elemento{
