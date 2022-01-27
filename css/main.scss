@@ -1,25 +1,12 @@
+@import "./parciales/header";
+@import "./parciales/footer";
 *{
     margin:0px;
     padding:0px;
 }
-.header__img{
-    width: 100vw;
-    height: 25vh;
-}
+
 .main__section--img{
     width: 100%;
 }
-.navbar{
-    background-color: #007aad;
-}
 
 
-.footer{
-    background-color: #007aad;
-    position:static;
-    bottom: 0px;
-    margin-top: 30vh;
-    &__elemento{
-        background-color: #007aad;
-    }
-}

@@ -1,0 +1,31 @@
+@import "variables";
+$redes:(
+    facebook:#1877F2,
+    instagram:#F35369,
+    linkedin:#0a66c2
+);
+$estiloRed:(
+    decoracion:none,
+    letra:#ffffff
+);
+
+.footer{
+    background-color: $primario;
+    position:static;
+    bottom: 0px;
+    margin-top: 30vh;
+    &__elemento{
+        background-color:$primario;
+    }
+}
+@each $red, $color in $redes{
+    .footer__elemento--#{$red}{
+        text-decoration: map-get($estiloRed, decoracion);
+        color:map-get($estiloRed, letra);
+        &:hover{
+            color: $color;
+            transform: rotate($rotacion);
+        }
+    }
+    
+}

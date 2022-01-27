@@ -1,0 +1,14 @@
+@import "variable";
+.header{
+    &__img{
+    width: 100vw;
+    height: 25vh;
+    }
+    &__nav{
+        background-color: $primario;
+    }
+    &__elemento:hover{
+        transform: rotate(rotacion);
+    }
+    
+}
