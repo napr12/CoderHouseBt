@@ -8,7 +8,7 @@
         background-color: $primario;
     }
     &__elemento:hover{
-        transform: rotate(rotacion);
+        transform: rotate($rotacion);
     }
     
 }

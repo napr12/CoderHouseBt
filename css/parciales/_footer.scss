@@ -1,4 +1,4 @@
-@import "variables";
+@import "variable";
 $redes:(
     facebook:#1877F2,
     instagram:#F35369,
@@ -13,7 +13,7 @@ $estiloRed:(
     background-color: $primario;
     position:static;
     bottom: 0px;
-    margin-top: 30vh;
+    margin-top: 20vh;
     &__elemento{
         background-color:$primario;
     }

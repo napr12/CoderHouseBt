@@ -16,7 +16,7 @@
   background-color: #007aad;
   position: static;
   bottom: 0px;
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 
 .footer__elemento {
@@ -30,6 +30,8 @@
 
 .footer__elemento--facebook:hover {
   color: #1877F2;
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
 }
 
 .footer__elemento--instagram {
@@ -39,6 +41,8 @@
 
 .footer__elemento--instagram:hover {
   color: #F35369;
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
 }
 
 .footer__elemento--linkedin {
@@ -48,6 +52,8 @@
 
 .footer__elemento--linkedin:hover {
   color: #0a66c2;
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
 }
 
 * {
